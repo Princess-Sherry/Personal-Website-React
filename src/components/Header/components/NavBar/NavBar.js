@@ -1,6 +1,6 @@
 import React from "react";
 import './NavBar.css';
-import './components/Item';
+import Item from './components/Item';
 
 const NavBar = () => (
     <div class="navbar">

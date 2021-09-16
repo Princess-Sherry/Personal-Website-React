@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from '../Footer';
 import Header from '../Header';
-import Page from '../Page';
+import Body from '../Body';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <div className="App-header">
         <Header />
       </div>
-      <div className="App-page">
-        <Page />
+      <div className="App-body">
+        <Body />
       </div>
       <div className="App-footer">
         <Footer />
