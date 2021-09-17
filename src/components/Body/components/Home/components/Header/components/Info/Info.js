@@ -1,7 +1,7 @@
 import React from "react";
 import LinkItem from "./components/LinkItem/LinkItem";
 import "./Info.css";
-import twitter from "/src/assets/icons/twitter";
+import twitter from "assets/icons/twitter.svg";
 
 const Info = () => (
   <div class="info">
