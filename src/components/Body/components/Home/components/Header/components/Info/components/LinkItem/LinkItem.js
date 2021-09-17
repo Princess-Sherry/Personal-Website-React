@@ -1,4 +1,3 @@
-import React from "react";
 import "./LinkItem.css";
 import styled from "styled-components";
 
