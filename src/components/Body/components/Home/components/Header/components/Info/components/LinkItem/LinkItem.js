@@ -3,7 +3,7 @@ import "./LinkItem.css";
 import styled from "styled-components";
 
 const LinkItem = styled.a`
-  background-image: url(${(props) => props.image});
+  background-image: url(${props => props.icon});
   background-color: whitesmoke;
   width: 40px;
   height: 40px;

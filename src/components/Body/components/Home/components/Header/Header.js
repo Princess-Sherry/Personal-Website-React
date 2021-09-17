@@ -1,6 +1,6 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
-import Info from "./components/Info/Info";
+import Info from "./components/Info";
+import Avatar from "./components/Avatar";  
 import "./Header.css";
 
 const Header = () => (
