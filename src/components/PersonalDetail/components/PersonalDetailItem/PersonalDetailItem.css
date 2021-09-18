@@ -1,0 +1,7 @@
+td:first-of-type {
+  padding-right: 2rem;
+}
+
+td:last-of-type {
+  color: gray;
+}

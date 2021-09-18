@@ -1,9 +1,10 @@
 import React from "react";
 import Logo from "../Logo";
 import NavBar from "./components/NavBar";
+import './Header.css';
 
 const Header = () => (
-    <div class="header">
+    <div className="layout__header">
         <Logo />
         <NavBar />
     </div>

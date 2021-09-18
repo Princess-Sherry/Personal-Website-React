@@ -1,0 +1,9 @@
+.layout__footer {
+  margin: 10px auto;
+  color: gray;
+}
+
+.layout__footer a {
+  text-decoration: none;
+  color: gray;
+}
