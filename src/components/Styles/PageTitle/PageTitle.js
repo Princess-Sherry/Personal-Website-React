@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const PageTitle = styled.div`
+const PageTitle = styled.h2`
   background-color: #fad9df;
   color: #595758;
   font-size: 2rem;
