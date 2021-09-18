@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const PageContentRow = styled.div`
+const PageContentColumn = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 30px 60px;
 `;
 
-export default PageContentRow;
+export default PageContentColumn;

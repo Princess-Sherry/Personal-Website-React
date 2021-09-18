@@ -1,21 +1,20 @@
-import React from "react";
-import Header from "components/Header";
 import Footer from "components/Footer";
+import Header from "components/Header";
 import Routes from "components/Routes";
+import { React } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className="layout">
-      <div className="layout__header">
+      <Router>
         <Header />
-      </div>
-      <div className="layout__page">
-        <Routes />
-      </div>
-      <div className="layout__footer">
+        <div className="layout__page">
+          <Routes />
+        </div>
         <Footer />
-      </div>
+      </Router>
     </div>
   );
 }

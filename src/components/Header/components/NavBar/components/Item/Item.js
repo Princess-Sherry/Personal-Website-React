@@ -1,16 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useRouteMatch } from "react-router-dom/cjs/react-router-dom.min";
 import "./Item.css";
 
-const Item = ({ onClick, path, active, children }) => (
-  <a
-    onClick={(event) => {
-        onClick();
-    }}
-    className={`item ${active ? "item--active" : ""}`}
-    href={path}
-  >
-    {children}
-  </a>
-);
+function Item({ to, active, children }) {
+  let match = useRouteMatch({
+    path: to,
+    exact: active,
+  });
+
+  return (
+    <Link className={match ? "item item--active" : "item"} to={to}>
+      {children}
+    </Link>
+  );
+}
 
 export default Item;

@@ -1,9 +1,12 @@
-import Avatar from "components/Avatar";
-import React from "react";
-import twitter from "assets/icons/twitter.svg";
 import facebook from "assets/icons/facebook.svg";
 import instagram from "assets/icons/instagram.svg";
+import twitter from "assets/icons/twitter.svg";
+import AboutMe from "components/AboutMe";
+import Avatar from "components/Avatar";
+import PersonalDetail from "components/PersonalDetail";
 import SocialMediaItem from "components/SocialMediaItem";
+import PageContentRow from "components/Styles/PageContentRow";
+import React from "react";
 import {
   HomeHeader,
   Info,
@@ -11,9 +14,6 @@ import {
   InfoName,
   InfoOccupation,
 } from "./styles";
-import PageContentRow from "components/Styles/PageContentRow";
-import AboutMe from "components/AboutMe";
-import PersonalDetail from "components/PersonalDetail";
 
 const Home = () => (
   <div className="home">
@@ -30,8 +30,8 @@ const Home = () => (
       </Info>
     </HomeHeader>
     <PageContentRow>
-        <AboutMe />
-        <PersonalDetail />
+      <AboutMe />
+      <PersonalDetail />
     </PageContentRow>
   </div>
 );
