@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AboutMeWrapper = styled.div`
-  width: 50%;
+  width: 400px;
   margin-right: 5rem;
   line-height: 1.75rem;
 `;
