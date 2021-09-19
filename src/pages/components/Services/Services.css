@@ -1,0 +1,14 @@
+.MyServices__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Team {
+  padding: 30px 0px;
+}
+
+.Team__members {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}

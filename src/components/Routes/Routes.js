@@ -7,23 +7,23 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 const Routes = () => (
-    <Switch>
-      <Route path="/home">
-        <Home />
-      </Route>
-      <Route path="/resume">
-        <Resume />
-      </Route>
-      <Route path="/services">
-        <Services />
-      </Route>
-      <Route path="/blog">
-        <Blog />
-      </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
-    </Switch>
+  <Switch>
+    <Route exact path="/">
+      <Home />
+    </Route>
+    <Route path="/resume">
+      <Resume />
+    </Route>
+    <Route path="/services">
+      <Services />
+    </Route>
+    <Route path="/blog">
+      <Blog />
+    </Route>
+    <Route path="/contact">
+      <Contact />
+    </Route>
+  </Switch>
 );
 
 export default Routes;
