@@ -1,9 +1,5 @@
 import {
-  ExperienceWrapper,
-  ExperienceTitle,
-  ExperienceYear,
-  ExperienceLocation,
-  ExperienceDetail,
+  ExperienceDetail, ExperienceLocation, ExperienceTitle, ExperienceWrapper, ExperienceYear
 } from "./styles.js";
 
 function Experience({ title, year, location, detail }) {

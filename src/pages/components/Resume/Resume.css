@@ -1,4 +1,9 @@
 .Resume__Experiences {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Resume__Skills {
+  display: flex;
+  justify-content: space-between;
 }
