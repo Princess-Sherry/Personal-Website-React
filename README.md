@@ -2,9 +2,8 @@
 
 ## Introduction
 
-This is a personal website template for professionals such as lawyer, designer, accountant, freelancers, etc.
+This is a personal website template for professionals such as lawyer, designer, accountant, freelancer, etc. You can add your content to this template and customise your own personal website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Tech Stack
 
