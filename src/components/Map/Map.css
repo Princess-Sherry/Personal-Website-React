@@ -1,0 +1,15 @@
+.map {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.map__canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #fad9df;
+}
