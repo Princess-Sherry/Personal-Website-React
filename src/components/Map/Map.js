@@ -4,6 +4,7 @@ const Map = () => (
     <div className="map">
         <div class="map__canvas">
             <iframe 
+            title="GmailMap"
             width="350" 
             height="200" 
             id="gmap_canvas"

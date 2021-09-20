@@ -12,7 +12,7 @@ const BlogCardWrapper = styled.div`
   }
 `;
 
-const BlogCard__cover = styled.div`
+const BlogCardCover = styled.div`
   content: "";
   width: 390px;
   height: 200px;
@@ -22,7 +22,7 @@ const BlogCard__cover = styled.div`
   position: relative;
   background-image: url(${(props) => props.cover});
 `;
-const BlogCard__date = styled.div`
+const BlogCardDate = styled.div`
   color: gray;
   background-color: #fad9df;
   position: absolute;
@@ -32,7 +32,7 @@ const BlogCard__date = styled.div`
   border-radius: 5px;
 `;
 
-const BlogCard__type = styled.div`
+const BlogCardType = styled.div`
   margin-top: 10px;
   line-height: 2rem;
   text-align: center;
@@ -40,14 +40,14 @@ const BlogCard__type = styled.div`
   font-size: 0.8rem;
 `;
 
-const BlogCard__title = styled.h3`
+const BlogCardTitle = styled.h3`
   line-height: 2rem;
   text-align: center;
   font-size: 1rem;
   margin: 0;
 `;
 
-const BlogCard__link = styled.a`
+const BlogCardLink = styled.a`
   color: #595758;
   &:hover {
     color: #fad9df;
@@ -56,9 +56,9 @@ const BlogCard__link = styled.a`
 
 export {
   BlogCardWrapper,
-  BlogCard__cover,
-  BlogCard__date,
-  BlogCard__title,
-  BlogCard__type,
-  BlogCard__link,
+  BlogCardCover,
+  BlogCardDate,
+  BlogCardTitle,
+  BlogCardType,
+  BlogCardLink,
 };
