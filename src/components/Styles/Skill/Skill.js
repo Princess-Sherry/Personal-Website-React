@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const Skill = styled.div`
-  margin: 2rem 0;
-  width: 45%;
+  width: 400px;
 `;
 
 const SkillName = styled.h3``;

@@ -6,7 +6,7 @@ const ServiceWrapper = styled.div`
   align-items: center;
   box-sizing: border-box;
   padding: 10px 30px;
-  width: 35%;
+  width: 290px;
 `;
 
 const ServiceLogo = styled.div`

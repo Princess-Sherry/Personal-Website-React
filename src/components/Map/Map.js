@@ -5,7 +5,7 @@ const Map = () => (
         <div class="map__canvas">
             <iframe 
             title="GmailMap"
-            width="350" 
+            width="330" 
             height="200" 
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=35.65,%20139.74&t=&z=13&ie=UTF8&iwloc=&output=embed"

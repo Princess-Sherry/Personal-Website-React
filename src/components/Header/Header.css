@@ -1,8 +1,20 @@
 .layout__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .header__large {
+    display: none;
   }
+}
+
+@media screen and (min-width: 600px) {
+  .header__small {
+    display: none;
+  }
+}

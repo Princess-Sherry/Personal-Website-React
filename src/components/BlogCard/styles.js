@@ -16,9 +16,9 @@ const BlogCardCover = styled.div`
   content: "";
   width: 390px;
   height: 200px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
   position: relative;
   background-image: url(${(props) => props.cover});
 `;
@@ -27,7 +27,7 @@ const BlogCardDate = styled.div`
   background-color: #fad9df;
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 20px;
   padding: 5px;
   border-radius: 5px;
 `;

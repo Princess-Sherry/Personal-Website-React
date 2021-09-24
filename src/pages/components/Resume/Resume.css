@@ -1,9 +1,12 @@
 .Resume__Experiences {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 .Resume__Skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }

@@ -1,5 +1,6 @@
 .MyServices__items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -9,6 +10,6 @@
 
 .Team__members {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 40px;
 }

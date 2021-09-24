@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const Timeline = styled.div`
-  width: 45%;
+  width: 400px;
+  margin-bottom: 2rem;
 `;
 
 const TimelineTitle = styled.h3`

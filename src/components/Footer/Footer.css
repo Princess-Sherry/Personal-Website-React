@@ -1,6 +1,7 @@
 .layout__footer {
   margin: 10px auto;
   color: gray;
+  font-size: small;
 }
 
 .layout__footer a {

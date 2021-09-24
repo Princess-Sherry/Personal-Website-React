@@ -4,6 +4,7 @@ const Member = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 `;
 
 const MemberAvatar = styled.div`
